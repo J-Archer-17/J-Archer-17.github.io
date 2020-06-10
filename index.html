@@ -9,12 +9,12 @@
   
   
   
-  <meta name="description" content="一个剑网三云端仓库">
+  <meta name="description" content="朋友，PV邑吗？">
 <meta property="og:type" content="website">
 <meta property="og:title" content="草堂昀网盘">
 <meta property="og:url" content="j-archer-17.github.io/index.html">
 <meta property="og:site_name" content="草堂昀网盘">
-<meta property="og:description" content="一个剑网三云端仓库">
+<meta property="og:description" content="朋友，PV邑吗？">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="路障">
 <meta name="twitter:card" content="summary">
@@ -57,10 +57,32 @@
 
 
   
+  
+  <div class="site-header-image">
+    <img id="originBg" width="100%" alt="Hike News" src="">
+  </div>
+
+  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
+  </div>
+
+  <script>
+        var imgUrls = "https://wx2.sbimg.cn/2020/06/11/2020-17-51-00-000.jpg".split(",");
+        var random = Math.floor((Math.random() * imgUrls.length ));
+        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+          document.getElementById("originBg").src=imgUrls[random];
+          document.getElementById("blurBg").src=imgUrls[random];
+        } else {
+          document.getElementById("originBg").src='/' + imgUrls[random];
+          document.getElementById("blurBg").src='/' + imgUrls[random];
+        }
+    </script>
+
+
 
 
 <header id="allheader" class="site-header" role="banner" 
-   >
+   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
   <div class="clearfix container">
       <div class="site-branding">
 
@@ -73,7 +95,7 @@
           </h1>
           
           
-            <div class="site-description">一个剑网三云端仓库</div>
+            <div class="site-description">朋友，PV邑吗？</div>
           
             
           <nav id="main-navigation" class="main-navigation" role="navigation">
@@ -84,8 +106,6 @@
               <ul id="main-nav" class="menu sf-js-enabled sf-arrows"  style="touch-action: pan-y;">
                     
                       <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/">首页</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/archives">归档</a> </li>
                     
                       <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/categories">分类</a> </li>
                     
@@ -251,8 +271,6 @@
   
     <a href="/" class="mobile-nav-link">Home</a>
   
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
     <a href="/categories" class="mobile-nav-link">Categories</a>
   
     <a href="/tags" class="mobile-nav-link">Tags</a>
@@ -268,8 +286,8 @@
 	      &copy; 2020 草堂昀网盘 All Rights Reserved.
         
             <span id="busuanzi_container_site_uv">
-              本站访客数<span id="busuanzi_value_site_uv"></span>人次  
-              本站总访问量<span id="busuanzi_value_site_pv"></span>次
+              
+              
             </span>
           
       </div>
@@ -291,6 +309,9 @@
 
 
     <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>
@@ -331,13 +352,6 @@
 </script>
 
 
-  
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-
-  
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
 
 
 <script src="/js/script.js"></script>
@@ -359,10 +373,6 @@
     <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
   </div>
 
-
-
-	<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
-	</script>
 
 
 
