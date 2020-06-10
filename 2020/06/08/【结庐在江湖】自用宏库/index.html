@@ -75,7 +75,7 @@
   </div>
 
   <script>
-        var imgUrls = "https://wx2.sbimg.cn/2020/06/11/2020-17-51-00-000.jpg".split(",");
+        var imgUrls = "https://wx1.sbimg.cn/2020/06/11/2020-26_11-00-009878.jpg,https://wx2.sbimg.cn/2020/06/11/2020-04-14_19-15-53-00.jpg".split(",");
         var random = Math.floor((Math.random() * imgUrls.length ));
         if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
           document.getElementById("originBg").src=imgUrls[random];
@@ -141,7 +141,7 @@
 <div class="article-gallery">
   <div class="article-gallery-photos">
     
-      <a class="article-gallery-img fancybox" href="https://wx1.sbimg.cn/2020/06/10/24c18e31313a224e9e147560af6e165a.jpg" target="_blank" rel="gallery_ckb9qtr1x0001cwvrdvyxcffq noopener">
+      <a class="article-gallery-img fancybox" href="https://wx1.sbimg.cn/2020/06/10/24c18e31313a224e9e147560af6e165a.jpg" target="_blank" rel="gallery_ckb9rl07t0001s0vren5oe3h5 noopener">
         <img src="https://wx1.sbimg.cn/2020/06/10/24c18e31313a224e9e147560af6e165a.jpg" itemprop="image">
       </a>
     
@@ -183,11 +183,13 @@
 <hr>
 <h2 id="傲血"><a href="#傲血" class="headerlink" title="傲血"></a>傲血</h2><p><img src="https://wx2.sbimg.cn/2020/06/09/1e78a419a4cabc35f5db34233a08e106.png" alt="普通"></p>
 <p><img src="https://wx1.sbimg.cn/2020/06/09/2d0eff681fcc9df5f890dd93a4269a4d.png" alt="精简狗"></p>
-<pre><code>/cast [tbufftime:流血&lt;2] 龙吟
-/cast [rage&gt;4] 龙牙
-/cast [rage&lt;3] 灭
-/cast [rage&lt;4] 龙吟
-/cast 穿云</code></pre><p>需求秘籍：</p>
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token comment" spellcheck="true">// 测试</span>
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>tbufftime<span class="token operator">:</span>流血<span class="token operator">&lt;</span><span class="token number">2</span><span class="token punctuation">]</span> 龙吟
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>rage<span class="token operator">></span><span class="token number">4</span><span class="token punctuation">]</span> 龙牙
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>rage<span class="token operator">&lt;</span><span class="token number">3</span><span class="token punctuation">]</span> 灭
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>rage<span class="token operator">&lt;</span><span class="token number">4</span><span class="token punctuation">]</span> 龙吟
+<span class="token operator">/</span>cast 穿云<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>需求秘籍：</p>
 <ul>
 <li>龙吟减CD</li>
 <li>灭减CD</li>
@@ -198,17 +200,19 @@
 <h2 id="铁牢"><a href="#铁牢" class="headerlink" title="铁牢"></a>铁牢</h2><p><img src="https://wx2.sbimg.cn/2020/06/09/36694be65f2de2a3335b800ae24efa3d.png" alt="单"></p>
 <p><img src="https://wx1.sbimg.cn/2020/06/09/41628928efd56dafcf0cd2d89f9e2b03.png" alt="群"></p>
 <p>奇穴没有固定的，只是一个例子。</p>
-<pre><code>/cast 龙牙
-/cast 灭
-/cast 龙吟
-/cast 穿云</code></pre><p>沧月需要的时候手动开。</p>
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token operator">/</span>cast 龙牙
+<span class="token operator">/</span>cast 灭
+<span class="token operator">/</span>cast 龙吟
+<span class="token operator">/</span>cast 穿云<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>沧月需要的时候手动开。</p>
 <hr>
 <h2 id="气纯"><a href="#气纯" class="headerlink" title="气纯"></a>气纯</h2><p><img src="https://wx2.sbimg.cn/2020/06/09/08d03f4ede311d8338abd3b0f06d9a12.png" alt=""></p>
-<pre><code>/cast [nobuff:破苍穹] 破苍穹
-/cast 六合独尊
-/cast [bufftime:气剑&lt;1.7|nobuff:气剑&amp;nobuff:紫气东来] 万世不竭
-/cast [qidian&gt;7] 两仪化形
-/cast 四象轮回</code></pre><p>需求秘籍：</p>
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token operator">/</span>cast <span class="token punctuation">[</span>nobuff<span class="token operator">:</span>破苍穹<span class="token punctuation">]</span> 破苍穹
+<span class="token operator">/</span>cast 六合独尊
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>bufftime<span class="token operator">:</span>气剑<span class="token operator">&lt;</span><span class="token number">1.7</span><span class="token operator">|</span>nobuff<span class="token operator">:</span>气剑<span class="token operator">&amp;</span>nobuff<span class="token operator">:</span>紫气东来<span class="token punctuation">]</span> 万世不竭
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>qidian<span class="token operator">></span><span class="token number">7</span><span class="token punctuation">]</span> 两仪化形
+<span class="token operator">/</span>cast 四象轮回<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>需求秘籍：</p>
 <ul>
 <li>两仪回气</li>
 <li>四象减读条</li>
@@ -217,17 +221,19 @@
 <hr>
 <h2 id="丐帮"><a href="#丐帮" class="headerlink" title="丐帮"></a>丐帮</h2><p><img src="https://wx1.sbimg.cn/2020/06/09/0ddc9fe93bfad6295bf6ab3e8111bee6.png" alt=""></p>
 <p>坚冰可以换御龙。</p>
-<pre><code>/cast [nobuff:无疆|bufftime:无疆&lt;2] 酒中仙
-/cast [nobuff:无疆|bufftime:无疆&lt;2] 龙战于野
-/cast 亢龙有悔
-/cast 拨狗朝天</code></pre><p>如果DPS低，一般是因为断了无疆buff，自己喝酒或者打回蓝技能补一下。</p>
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token operator">/</span>cast <span class="token punctuation">[</span>nobuff<span class="token operator">:</span>无疆<span class="token operator">|</span>bufftime<span class="token operator">:</span>无疆<span class="token operator">&lt;</span><span class="token number">2</span><span class="token punctuation">]</span> 酒中仙
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>nobuff<span class="token operator">:</span>无疆<span class="token operator">|</span>bufftime<span class="token operator">:</span>无疆<span class="token operator">&lt;</span><span class="token number">2</span><span class="token punctuation">]</span> 龙战于野
+<span class="token operator">/</span>cast 亢龙有悔
+<span class="token operator">/</span>cast 拨狗朝天<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>如果DPS低，一般是因为断了无疆buff，自己喝酒或者打回蓝技能补一下。</p>
 <p><img src="https://wx2.sbimg.cn/2020/06/10/3b15a1233d99857b5f4abd88ba8dd3b7.png" alt=""></p>
 <hr>
 <h2 id="鲸鱼"><a href="#鲸鱼" class="headerlink" title="鲸鱼"></a>鲸鱼</h2><p><img src="https://wx2.sbimg.cn/2020/06/09/03469a4b92e3fa08accca75455bac9a5.png" alt=""></p>
-<pre><code>/cast 暴雨梨花针
-/cast [buff:追命无声] 追命箭
-/cast [energy&gt;40] 夺魄箭
-/cast 逐星箭</code></pre><p>需求秘籍：</p>
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token operator">/</span>cast 暴雨梨花针
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>buff<span class="token operator">:</span>追命无声<span class="token punctuation">]</span> 追命箭
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>energy<span class="token operator">></span><span class="token number">40</span><span class="token punctuation">]</span> 夺魄箭
+<span class="token operator">/</span>cast 逐星箭<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>需求秘籍：</p>
 <ul>
 <li>追命箭减CD×2</li>
 <li>逐星箭回神机值</li>
@@ -237,12 +243,13 @@
 <p>手动心无百里穿心。</p>
 <hr>
 <h2 id="田螺"><a href="#田螺" class="headerlink" title="田螺"></a>田螺</h2><p><img src="https://wx2.sbimg.cn/2020/06/09/50632e285aeadc9bfa1aa9d9ae47a92f.png" alt=""></p>
-<pre><code>/cast 攻击
-/cast [tnobuff:化血|tbufftime:化血&lt;7] 天女散花
-/cast 暴雨梨花针
-/cast 暗藏杀机
-/cast 天绝地灭
-/cast 蚀肌弹</code></pre><p>需求秘籍：</p>
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token operator">/</span>cast 攻击
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>tnobuff<span class="token operator">:</span>化血<span class="token operator">|</span>tbufftime<span class="token operator">:</span>化血<span class="token operator">&lt;</span><span class="token number">7</span><span class="token punctuation">]</span> 天女散花
+<span class="token operator">/</span>cast 暴雨梨花针
+<span class="token operator">/</span>cast 暗藏杀机
+<span class="token operator">/</span>cast 天绝地灭
+<span class="token operator">/</span>cast 蚀肌弹<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>需求秘籍：</p>
 <ul>
 <li>蚀肌弹减读条×2</li>
 <li>暴雨气魄效果</li>
@@ -251,10 +258,11 @@
 <p>群攻多洗千秋万劫，但是夜店老一这种小怪其实并不多而且带减伤的，还是常规奇穴。</p>
 <hr>
 <h2 id="冰心"><a href="#冰心" class="headerlink" title="冰心"></a>冰心</h2><p><img src="https://wx2.sbimg.cn/2020/06/09/478658e6f1fa303830f9404d43331c55.png" alt=""></p>
-<pre><code>/cast [tbuff:急曲&gt;1] 繁音急节
-/fcast [tnobuff:急曲|tbuff:急曲&lt;3|tbufftime:急曲&lt;2] 剑破虚空
-/cast 玳弦急曲
-/cast 剑气长江</code></pre><p>需求秘籍：</p>
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token operator">/</span>cast <span class="token punctuation">[</span>tbuff<span class="token operator">:</span>急曲<span class="token operator">></span><span class="token number">1</span><span class="token punctuation">]</span> 繁音急节
+<span class="token operator">/</span>fcast <span class="token punctuation">[</span>tnobuff<span class="token operator">:</span>急曲<span class="token operator">|</span>tbuff<span class="token operator">:</span>急曲<span class="token operator">&lt;</span><span class="token number">3</span><span class="token operator">|</span>tbufftime<span class="token operator">:</span>急曲<span class="token operator">&lt;</span><span class="token number">2</span><span class="token punctuation">]</span> 剑破虚空
+<span class="token operator">/</span>cast 玳弦急曲
+<span class="token operator">/</span>cast 剑气长江<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>需求秘籍：</p>
 <ul>
 <li>繁音减CD×3</li>
 </ul>
@@ -262,14 +270,15 @@
 <hr>
 <h2 id="毒经"><a href="#毒经" class="headerlink" title="毒经"></a>毒经</h2><p><img src="https://wx1.sbimg.cn/2020/06/09/1ca9177fded6cd4d9989c6722fd73931.png" alt="封丘"></p>
 <p><img src="https://wx2.sbimg.cn/2020/06/10/57c93e2c72708f1b45a696a743c9ad69.png" alt="引魂"></p>
-<pre><code>/cast 灵蛊
-/cast 蛊虫献祭
-/cast 蛊虫狂暴
-/fcast 幻击
-/cast [tnobuff:蛇影|tbufftime:蛇影&lt;2] 蛇影
-/cast 百足
-/cast 蝎心
-/cast 蟾啸</code></pre><p>需求秘籍：</p>
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token operator">/</span>cast 灵蛊
+<span class="token operator">/</span>cast 蛊虫献祭
+<span class="token operator">/</span>cast 蛊虫狂暴
+<span class="token operator">/</span>fcast 幻击
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>tnobuff<span class="token operator">:</span>蛇影<span class="token operator">|</span>tbufftime<span class="token operator">:</span>蛇影<span class="token operator">&lt;</span><span class="token number">2</span><span class="token punctuation">]</span> 蛇影
+<span class="token operator">/</span>cast 百足
+<span class="token operator">/</span>cast 蝎心
+<span class="token operator">/</span>cast 蟾啸<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>需求秘籍：</p>
 <ul>
 <li>献祭减CD×2</li>
 <li>蝎心减读条×2</li>
@@ -282,97 +291,105 @@
 <p><img src="https://wx1.sbimg.cn/2020/06/10/9c920e2a1fc126b8edd8d94bf7004e59.png" alt="造化"></p>
 <p>大范围/短时间群怪还是洗夜风，毕竟T会动动动动动动动动动。</p>
 <p>只有映波/造化这一层影响宏的写法，仅作参考。实际上景行/夜风/日出、雾锁/山重水复、残血/碧归这几个都是看情况点的。</p>
-<pre><code>// 映波锁澜
-/cast [buff:夜雨] 云飞玉皇
-/cast [buff:凤鸣|rage&gt;99] 夕照雷峰
-/cast 听雷
-/cast 夕照雷峰
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token comment" spellcheck="true">// 映波锁澜</span>
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>buff<span class="token operator">:</span>夜雨<span class="token punctuation">]</span> 云飞玉皇
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>buff<span class="token operator">:</span>凤鸣<span class="token operator">|</span>rage<span class="token operator">></span><span class="token number">99</span><span class="token punctuation">]</span> 夕照雷峰
+<span class="token operator">/</span>cast 听雷
+<span class="token operator">/</span>cast 夕照雷峰
 
-// 造化
-/cast [buff:夜雨] 云飞玉皇
-/cast 夕照雷峰</code></pre><p>需求秘籍：</p>
+<span class="token comment" spellcheck="true">// 造化</span>
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>buff<span class="token operator">:</span>夜雨<span class="token punctuation">]</span> 云飞玉皇
+<span class="token operator">/</span>cast 夕照雷峰<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>需求秘籍：</p>
 <ul>
 <li>夕照读条×2</li>
 </ul>
 <p>手动轻剑和松舍。</p>
 <hr>
 <h2 id="焚影"><a href="#焚影" class="headerlink" title="焚影"></a>焚影</h2><p><img src="https://wx1.sbimg.cn/2020/06/09/055cc7a784393155d32f3daef26ab8ec.png" alt=""></p>
-<pre><code>/cast [sun&lt;81] 伏明众生
-/cast [sun=0] 驱夜断愁
-/cast 诛邪镇魔
-/cast 净世破魔击
-/cast [sun&lt;40] 烈日斩
-/cast [sun&lt;80] 赤日轮
-/cast 银月斩
-/cast [sun&lt;99] 幽月轮</code></pre><p>按键开启。</p>
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token operator">/</span>cast <span class="token punctuation">[</span>sun<span class="token operator">&lt;</span><span class="token number">81</span><span class="token punctuation">]</span> 伏明众生
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>sun<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">]</span> 驱夜断愁
+<span class="token operator">/</span>cast 诛邪镇魔
+<span class="token operator">/</span>cast 净世破魔击
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>sun<span class="token operator">&lt;</span><span class="token number">40</span><span class="token punctuation">]</span> 烈日斩
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>sun<span class="token operator">&lt;</span><span class="token number">80</span><span class="token punctuation">]</span> 赤日轮
+<span class="token operator">/</span>cast 银月斩
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>sun<span class="token operator">&lt;</span><span class="token number">99</span><span class="token punctuation">]</span> 幽月轮<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>按键开启。</p>
 <hr>
 <h2 id="明尊"><a href="#明尊" class="headerlink" title="明尊"></a>明尊</h2><p><img src="https://wx2.sbimg.cn/2020/06/09/abcd2c752e0a9d3a0957639929d60527.png" alt="单"></p>
 <p><img src="https://wx2.sbimg.cn/2020/06/09/6d29c14c1353b74eb7e5f3f60ae6dbca.png" alt="群"></p>
 <p>奇穴没有固定的。如果全程都在群小怪不用你接BOSS，可以把纵遇善缘换成极本溯源。</p>
-<pre><code>// 单
-/cast 心火叹
-/cast 生死劫
-/cast [moon&gt;=sun] 银月斩
-/cast [sun&gt;moon] 烈日斩
-/cast [sun&gt;=moon&amp;sun&lt;100] 赤日轮
-/cast [moon&gt;sun&amp;moon&lt;100] 幽月轮
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token comment" spellcheck="true">// 单</span>
+<span class="token operator">/</span>cast 心火叹
+<span class="token operator">/</span>cast 生死劫
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>moon<span class="token operator">>=</span>sun<span class="token punctuation">]</span> 银月斩
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>sun<span class="token operator">></span>moon<span class="token punctuation">]</span> 烈日斩
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>sun<span class="token operator">>=</span>moon<span class="token operator">&amp;</span>sun<span class="token operator">&lt;</span><span class="token number">100</span><span class="token punctuation">]</span> 赤日轮
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>moon<span class="token operator">></span>sun<span class="token operator">&amp;</span>moon<span class="token operator">&lt;</span><span class="token number">100</span><span class="token punctuation">]</span> 幽月轮
 
-// 群
-/cast 净世破魔击
-/cast 烈日斩
-/cast 赤日轮</code></pre><p>戒火自己补。</p>
+<span class="token comment" spellcheck="true">// 群</span>
+<span class="token operator">/</span>cast 净世破魔击
+<span class="token operator">/</span>cast 烈日斩
+<span class="token operator">/</span>cast 赤日轮<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>戒火自己补。</p>
 <p>如果打生死劫看到仇恨有压力，临时按群的宏打日破就行，还压不下去就打月斩。没有必要把生死劫换成净世破魔击然后按宏打月破，仇恨不高还突进。</p>
 <hr>
 <h2 id="霸刀"><a href="#霸刀" class="headerlink" title="霸刀"></a>霸刀</h2><p><img src="https://wx2.sbimg.cn/2020/06/09/06274db131ca037967540dfc37b2e059.png" alt=""></p>
-<pre><code>// 尘身
-/cast 雷走风切
-/cast 上将军印
-/cast [bufftime：尘身＜1] 停止释放
-/cast [bufftime:上将军印&gt;2] 雪絮金屏
-/cast [rage&lt;20|sun&lt;20] 龙骧虎步
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token comment" spellcheck="true">// 尘身</span>
+<span class="token operator">/</span>cast 雷走风切
+<span class="token operator">/</span>cast 上将军印
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>bufftime：尘身＜<span class="token number">1</span><span class="token punctuation">]</span> 停止释放
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>bufftime<span class="token operator">:</span>上将军印<span class="token operator">></span><span class="token number">2</span><span class="token punctuation">]</span> 雪絮金屏
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>rage<span class="token operator">&lt;</span><span class="token number">20</span><span class="token operator">|</span>sun<span class="token operator">&lt;</span><span class="token number">20</span><span class="token punctuation">]</span> 龙骧虎步
 
-//金屏
-/cast [sun&lt;100&amp;bufftime:上将军印&lt;1.7|nobuff:上将军印] 秀明尘身
-/fcast [sun&lt;100&amp;sun&gt;89&amp;nobuff:上将军印] 秀明尘身
-/cast 刀啸风吟
-/cast 醉斩白蛇</code></pre><p>需求秘籍：</p>
+<span class="token comment" spellcheck="true">//金屏</span>
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>sun<span class="token operator">&lt;</span><span class="token number">100</span><span class="token operator">&amp;</span>bufftime<span class="token operator">:</span>上将军印<span class="token operator">&lt;</span><span class="token number">1.7</span><span class="token operator">|</span>nobuff<span class="token operator">:</span>上将军印<span class="token punctuation">]</span> 秀明尘身
+<span class="token operator">/</span>fcast <span class="token punctuation">[</span>sun<span class="token operator">&lt;</span><span class="token number">100</span><span class="token operator">&amp;</span>sun<span class="token operator">></span><span class="token number">89</span><span class="token operator">&amp;</span>nobuff<span class="token operator">:</span>上将军印<span class="token punctuation">]</span> 秀明尘身
+<span class="token operator">/</span>cast 刀啸风吟
+<span class="token operator">/</span>cast 醉斩白蛇<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>需求秘籍：</p>
 <ul>
 <li><strong>上将减伤</strong>（不读的话没法按这个宏）</li>
 </ul>
 <p>起手挂闹，切鞘刀铺地毯，按键开启。之后全程的地毯需要手动放。</p>
 <hr>
 <h2 id="蓬莱"><a href="#蓬莱" class="headerlink" title="蓬莱"></a>蓬莱</h2><p><img src="https://wx1.sbimg.cn/2020/06/09/cb4c0bf2abb6c8647d716788406d28ee.png" alt=""></p>
-<pre><code>/cast 翼绝云天</code></pre><p>鸟挂按键。现在地面的技能也没法写进宏划水了QAQ<br>注意不能直接把翼绝云天直接挂按键，一定要用宏。不然开了鸟秒关。</p>
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token operator">/</span>cast 翼绝云天<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>鸟挂按键。现在地面的技能也没法写进宏划水了QAQ<br>注意不能直接把翼绝云天直接挂按键，一定要用宏。不然开了鸟秒关。</p>
 <hr>
 <h2 id="易筋"><a href="#易筋" class="headerlink" title="易筋"></a>易筋</h2><p><img src="https://wx1.sbimg.cn/2020/06/10/959d097f97a6961c07134fcfffd44fe1.png" alt=""></p>
-<pre><code>/cast [qidian&gt;2] 罗汉金身
-/cast [qidian&gt;2] 拿云式
-/cast [qidian&gt;2] 韦陀献杵
-/cast 横扫六合
-/cast [buff:佛果|qidian=2&amp;buff:罗汉金身] 守缺式
-/cast 普渡四方</code></pre><p>手动爆发。</p>
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token operator">/</span>cast <span class="token punctuation">[</span>qidian<span class="token operator">></span><span class="token number">2</span><span class="token punctuation">]</span> 罗汉金身
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>qidian<span class="token operator">></span><span class="token number">2</span><span class="token punctuation">]</span> 拿云式
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>qidian<span class="token operator">></span><span class="token number">2</span><span class="token punctuation">]</span> 韦陀献杵
+<span class="token operator">/</span>cast 横扫六合
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>buff<span class="token operator">:</span>佛果<span class="token operator">|</span>qidian<span class="token operator">=</span><span class="token number">2</span><span class="token operator">&amp;</span>buff<span class="token operator">:</span>罗汉金身<span class="token punctuation">]</span> 守缺式
+<span class="token operator">/</span>cast 普渡四方<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>手动爆发。</p>
 <hr>
 <h2 id="洗髓"><a href="#洗髓" class="headerlink" title="洗髓"></a>洗髓</h2><p><img src="https://wx1.sbimg.cn/2020/06/10/9e9bfc09cf25db98ac92333f6047f83e.png" alt="单"></p>
 <p><img src="https://wx2.sbimg.cn/2020/06/10/b62334e4fefa61f3b0e09c9cb556f4f0.png" alt="群"></p>
 <p>奇穴不固定。</p>
-<pre><code>/cast [qidian&gt;2&amp;tbuff:立地成佛&lt;7] 立地成佛
-/cast [qidian&gt;2] 韦陀献杵
-/cast 普渡四方</code></pre><p>宏里没写的都需要手动打；第一个立地需要自己上，因为起手叠5层立地很容易OT。</p>
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token operator">/</span>cast <span class="token punctuation">[</span>qidian<span class="token operator">></span><span class="token number">2</span><span class="token operator">&amp;</span>tbuff<span class="token operator">:</span>立地成佛<span class="token operator">&lt;</span><span class="token number">7</span><span class="token punctuation">]</span> 立地成佛
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>qidian<span class="token operator">></span><span class="token number">2</span><span class="token punctuation">]</span> 韦陀献杵
+<span class="token operator">/</span>cast 普渡四方<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>宏里没写的都需要手动打；第一个立地需要自己上，因为起手叠5层立地很容易OT。</p>
 <hr>
 <h2 id="分山"><a href="#分山" class="headerlink" title="分山"></a>分山</h2><p><img src="https://wx1.sbimg.cn/2020/06/10/e50cbe2943228873ec1ed20919581898.png" alt=""></p>
 <p>割裂可以不点。</p>
-<pre><code>// 盾
-/cast [nobuff:血怒|bufftime:骇日&gt;53.9] 血怒
-/cast [skill_energy:盾击=0] 盾压
-/cast 盾击
-/cast [last_skill=盾压] 盾飞
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token comment" spellcheck="true">// 盾</span>
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>nobuff<span class="token operator">:</span>血怒<span class="token operator">|</span>bufftime<span class="token operator">:</span>骇日<span class="token operator">></span><span class="token number">53.9</span><span class="token punctuation">]</span> 血怒
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>skill_energy<span class="token operator">:</span>盾击<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">]</span> 盾压
+<span class="token operator">/</span>cast 盾击
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>last_skill<span class="token operator">=</span>盾压<span class="token punctuation">]</span> 盾飞
 
-// 刀
-/cast [nobuff:血怒|bufftime:骇日&gt;53.9] 血怒
-/cast 斩刀
-/cast [bufftime:盾飞&gt;13.6|bufftime:狂绝&gt;2&amp;rage&gt;14] 劫刀
-/cast 绝刀
-/cast [rage&lt;9] 盾回</code></pre><p>需求秘籍：</p>
+<span class="token comment" spellcheck="true">// 刀</span>
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>nobuff<span class="token operator">:</span>血怒<span class="token operator">|</span>bufftime<span class="token operator">:</span>骇日<span class="token operator">></span><span class="token number">53.9</span><span class="token punctuation">]</span> 血怒
+<span class="token operator">/</span>cast 斩刀
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>bufftime<span class="token operator">:</span>盾飞<span class="token operator">></span><span class="token number">13.6</span><span class="token operator">|</span>bufftime<span class="token operator">:</span>狂绝<span class="token operator">></span><span class="token number">2</span><span class="token operator">&amp;</span>rage<span class="token operator">></span><span class="token number">14</span><span class="token punctuation">]</span> 劫刀
+<span class="token operator">/</span>cast 绝刀
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>rage<span class="token operator">&lt;</span><span class="token number">9</span><span class="token punctuation">]</span> 盾回<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>需求秘籍：</p>
 <ul>
 <li>劫刀减消耗</li>
 <li>绝刀减CD×1+减消耗</li>
@@ -382,17 +399,19 @@
 <h2 id="铁骨"><a href="#铁骨" class="headerlink" title="铁骨"></a>铁骨</h2><p><img src="https://wx2.sbimg.cn/2020/06/10/cb10759d888ad19aa5b52fd937adb2ef.png" alt="单"></p>
 <p><img src="https://wx1.sbimg.cn/2020/06/10/298d08eedd6311faaba8098475f7ae00.png" alt="群"></p>
 <p>奇穴没有固定的，只是一个例子。</p>
-<pre><code>/cast [nobuff:血怒] 血怒
-/cast [rage&gt;75] 盾挡
-/cast 盾压
-/cast 盾刀</code></pre><p>建议起手2血怒；没写的都需要手动打。</p>
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token operator">/</span>cast <span class="token punctuation">[</span>nobuff<span class="token operator">:</span>血怒<span class="token punctuation">]</span> 血怒
+<span class="token operator">/</span>cast <span class="token punctuation">[</span>rage<span class="token operator">></span><span class="token number">75</span><span class="token punctuation">]</span> 盾挡
+<span class="token operator">/</span>cast 盾压
+<span class="token operator">/</span>cast 盾刀<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>建议起手2血怒；没写的都需要手动打。</p>
 <hr>
 <h2 id="莫问"><a href="#莫问" class="headerlink" title="莫问"></a>莫问</h2><p><img src="https://wx2.sbimg.cn/2020/06/10/b2b07e6fb0ca7d53342a7c8474393a8c.png" alt="大徵"></p>
 <p><img src="https://wx1.sbimg.cn/2020/06/10/4f75c0c9bfc43c1505b5850531767cc8.png" alt="切剑"></p>
-<pre><code>// 切剑辅助宏
-/cast 高山流水
-/cast 疏影横斜
-/cast 变宫</code></pre><p>需求秘籍：</p>
+<pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token comment" spellcheck="true">// 切剑辅助宏</span>
+<span class="token operator">/</span>cast 高山流水
+<span class="token operator">/</span>cast 疏影横斜
+<span class="token operator">/</span>cast 变宫<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>需求秘籍：</p>
 <ul>
 <li>宫减读条×2</li>
 </ul>
