@@ -67,32 +67,10 @@
 
 
   
-  
-  <div class="site-header-image">
-    <img id="originBg" width="100%" alt="Hike News" src="">
-  </div>
-
-  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
-    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
-  </div>
-
-  <script>
-        var imgUrls = "https://wx1.sbimg.cn/2020/06/11/2020-26_11-00-009878.jpg".split(",");
-        var random = Math.floor((Math.random() * imgUrls.length ));
-        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
-          document.getElementById("originBg").src=imgUrls[random];
-          document.getElementById("blurBg").src=imgUrls[random];
-        } else {
-          document.getElementById("originBg").src='/' + imgUrls[random];
-          document.getElementById("blurBg").src='/' + imgUrls[random];
-        }
-    </script>
-
-
 
 
 <header id="allheader" class="site-header" role="banner" 
-   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
+   >
   <div class="clearfix container">
       <div class="site-branding">
 
@@ -231,7 +209,7 @@
 <p><img src="https://wx1.sbimg.cn/2020/06/23/15893e11e7f0010e2.png" alt="T小怪"></p>
 <p>猛击开减伤，连砍举盾（减伤无效），注意面向，瞎打。</p>
 <h3 id="老二-左右为男"><a href="#老二-左右为男" class="headerlink" title="老二 左右为男"></a>老二 左右为男</h3><p><img src="https://wx1.sbimg.cn/2020/06/23/9e361be509c289bca6498ae2858e2ffe.png" alt=""></p>
-<p>明尊比较适合扛流血厌夜，挂机生死劫就行了，没生死劫的时候交个贪或扶摇扛buff炸掉之后的平A。我不知道为啥好多团长喜欢喊天策T这个厌夜，其实对于这个BOSS来说天策是最脆的。</p>
+<p>明尊还算是适合扛流血厌夜，挂机生死劫就行了，5层流血交个贪或扶摇扛buff炸掉之后的平A。我不知道为啥好多团长喜欢喊天策T这个厌夜，其实对于这个BOSS天策是最脆的。</p>
 <p>打断一般有奶毒就够了。</p>
 <p>对自己不够自信可以设置一个宏：<code>/cast [bufftime:铁马血河&lt;1] 后撤</code>，身上有铁马血河的时候狂按。</p>
 <p>英雄出鑫鑫的时候BOSS会无敌几秒，是机制，不是他不理你。把BOSS拉进圈之后不能让他面向打到鑫鑫，所以你站在圈外一点点就行了。</p>
@@ -369,9 +347,6 @@
 
 
     <!-- headerblur min height -->
-    
-      var headerblur = document.getElementById("header-blur");
-      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>
