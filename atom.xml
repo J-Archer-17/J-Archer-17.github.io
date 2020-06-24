@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="j-archer-17.github.io/"/>
-  <updated>2020-06-23T15:44:12.000Z</updated>
+  <updated>2020-06-24T10:01:20.000Z</updated>
   <id>j-archer-17.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>傲血战意夜店蹦迪姿势参考</title>
+    <link href="j-archer-17.github.io/2020/06/24/%E5%82%B2%E8%A1%80%E6%88%98%E6%84%8F%E5%A4%9C%E5%BA%97%E8%B9%A6%E8%BF%AA%E5%A7%BF%E5%8A%BF%E5%8F%82%E8%80%83/"/>
+    <id>j-archer-17.github.io/2020/06/24/%E5%82%B2%E8%A1%80%E6%88%98%E6%84%8F%E5%A4%9C%E5%BA%97%E8%B9%A6%E8%BF%AA%E5%A7%BF%E5%8A%BF%E5%8F%82%E8%80%83/</id>
+    <published>2020-06-24T10:01:20.000Z</published>
+    <updated>2020-06-24T10:01:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>就是想解释一下我的宏……</p><a id="more"></a><p><img src="https://wx1.sbimg.cn/2020/06/24/a1effa47a3e88fd64c77fae9224a7763.png" alt=""></p><pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token operator">/</span>cast <span class="token punctuation">[</span>tbufftime<span class="token operator">:</span>流血<span class="token operator">&lt;</span><span class="token number">2</span><span class="token punctuation">]</span> 龙吟<span class="token operator">/</span>cast <span class="token punctuation">[</span>rage<span class="token operator">></span><span class="token number">4</span><span class="token punctuation">]</span> 龙牙<span class="token operator">/</span>cast <span class="token punctuation">[</span>rage<span class="token operator">&lt;</span><span class="token number">3</span><span class="token punctuation">]</span> 灭<span class="token operator">/</span>cast <span class="token punctuation">[</span>rage<span class="token operator">&lt;</span><span class="token number">4</span><span class="token punctuation">]</span> 龙吟<span class="token operator">/</span>cast 穿云<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>一开始写的是<code>/cast [tnobuff:流血|tbuff:流血&lt;3|tbufftime:流血&lt;2] 龙吟</code>，然后发现起手打得特别低，因为正常打肯定是上去直接有龙牙打龙牙的，转火的时候目标身上没有流血debuff，就算5战意宏也是慢吞吞先挂流血。</p><p>然后我把龙牙挪到第一行，结果好几次转火回来BOSS身上流血马上断了，我正好疯狂触发虎贲一直打龙牙，好好的流血就掉光了。</p><p>最后改成这个样子，应该是打起来比较舒服的了，跟自己打的技能差别不大。觉得天策起手太在意叠流血反而耽误事，还不如开爆发多打几个龙牙。转火，如果我想保持哪个目标身上的流血会自己切目标，如果懒得切<code>/cast [tbufftime:流血&lt;2] 龙吟</code>有时也能捞一下。</p><p>对于没玩过天策的小伙伴要提一下，不论是按宏还是手动小蜜蜂，都不建议0战意起手。进本有小怪的，可以打一下，因为天策只要打了，脱战之后最低就是2战意。</p><p>如果没有这个机会，可以<strong>把【风虎】切到【白羽】，开风，然后切回来</strong>。</p><p><img src="https://wx2.sbimg.cn/2020/06/24/c2a7a04cf63299345678dc884121b41d.png" alt=""></p><p>这样你可以起手直接打雷，按键开启，打的是[雷+龙牙 - 灭 - 龙牙 - 龙吟 - 穿云 - 龙牙…]。</p><p>如果懒得切，0战意起手了，不要直接按宏，先打两个穿云，然后按键开启，打出一个灭之后开爆发。这样打的是[穿云×2 - 灭 - 雷+龙牙 - 龙吟 - 穿云 - 龙牙…]。</p><p>夜店这个本对天策来讲没啥需要特别注意的地方，或者我太菜了还不知道。</p><p>奇穴我是老一常规+龙啸，23常规，4常规或龙啸看你心情，5龙啸。</p><p>【穿】和【神勇】冲突，个人不太建议洗穿。龙牙占比太高了，损失10%的双会去换群龙吟的输出，感觉有点得不偿失。何况老一盾兵受到AOE伤害降低80%，群也群不了多少。</p><p>【驰骋】和【劲风】，【渊】和【破楼兰】，这两个随便换。如果不是精简狗，驰骋对输出的提升并不大。但是渊和破楼兰的差距就很明显了。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;就是想解释一下我的宏……&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="天策" scheme="j-archer-17.github.io/categories/%E5%A4%A9%E7%AD%96/"/>
+    
+    
+      <category term="PVE" scheme="j-archer-17.github.io/tags/PVE/"/>
+    
+      <category term="结庐在江湖" scheme="j-archer-17.github.io/tags/%E7%BB%93%E5%BA%90%E5%9C%A8%E6%B1%9F%E6%B9%96/"/>
+    
+      <category term="傲血" scheme="j-archer-17.github.io/tags/%E5%82%B2%E8%A1%80/"/>
+    
+  </entry>
   
   <entry>
     <title>【结庐在江湖】明尊玻璃体光速上手指南</title>
@@ -90,7 +117,7 @@
     </summary>
     
     
-      <category term="花间" scheme="j-archer-17.github.io/categories/%E8%8A%B1%E9%97%B4/"/>
+      <category term="万花" scheme="j-archer-17.github.io/categories/%E4%B8%87%E8%8A%B1/"/>
     
     
       <category term="PVE" scheme="j-archer-17.github.io/tags/PVE/"/>
@@ -163,29 +190,6 @@
       <category term="输出" scheme="j-archer-17.github.io/tags/%E8%BE%93%E5%87%BA/"/>
     
       <category term="结庐在江湖" scheme="j-archer-17.github.io/tags/%E7%BB%93%E5%BA%90%E5%9C%A8%E6%B1%9F%E6%B9%96/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>傲血战意夜店蹦迪姿势参考</title>
-    <link href="j-archer-17.github.io/2020/06/11/%E5%82%B2%E8%A1%80%E6%88%98%E6%84%8F%E5%A4%9C%E5%BA%97%E8%B9%A6%E8%BF%AA%E5%A7%BF%E5%8A%BF%E5%8F%82%E8%80%83/"/>
-    <id>j-archer-17.github.io/2020/06/11/%E5%82%B2%E8%A1%80%E6%88%98%E6%84%8F%E5%A4%9C%E5%BA%97%E8%B9%A6%E8%BF%AA%E5%A7%BF%E5%8A%BF%E5%8F%82%E8%80%83/</id>
-    <published>2020-06-11T10:01:20.000Z</published>
-    <updated>2020-06-11T10:01:20.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><del>挂机，按键开启。</del></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;del&gt;挂机，按键开启。&lt;/del&gt;&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
     
   </entry>
   
