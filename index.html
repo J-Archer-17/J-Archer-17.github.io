@@ -57,32 +57,10 @@
 
 
   
-  
-  <div class="site-header-image">
-    <img id="originBg" width="100%" alt="Hike News" src="">
-  </div>
-
-  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
-    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
-  </div>
-
-  <script>
-        var imgUrls = "https://wx1.sbimg.cn/2020/06/11/2020-26_11-00-009878.jpg".split(",");
-        var random = Math.floor((Math.random() * imgUrls.length ));
-        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
-          document.getElementById("originBg").src=imgUrls[random];
-          document.getElementById("blurBg").src=imgUrls[random];
-        } else {
-          document.getElementById("originBg").src='/' + imgUrls[random];
-          document.getElementById("blurBg").src='/' + imgUrls[random];
-        }
-    </script>
-
-
 
 
 <header id="allheader" class="site-header" role="banner" 
-   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
+   >
   <div class="clearfix container">
       <div class="site-branding">
 
@@ -162,7 +140,7 @@
             <a href="/2020/06/26/%E3%80%90%E7%BB%93%E5%BA%90%E5%9C%A8%E6%B1%9F%E6%B9%96%E3%80%91%E5%A5%87%E6%80%AA%E7%9A%84%E9%93%81%E7%89%A2%E5%BE%8B%E5%92%8CT%E5%BF%83%E6%B3%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E7%A7%91%E6%99%AE/"><img src="https://s1.ax1x.com/2020/06/25/N093qO.jpg" class="attachment-thumb-featured size-thumb-featured wp-post-image" alt=""></a>
           </div>
           <div class="entry-summary">
-          写得比较详细，不是为了一次看完的。这里只是提供一些可行的玩法，至于好不好得看哪方面。快速上手应该是没问题的，如有观点不同，按照你自己的习惯打就好。可以适当利用右侧目录（手机看不到）按需查看。
+          写得比较详细，不是为了一次看完的。这里只是提供一些可行的玩法，快速上手应该是没问题的。如有观点不同，按照你自己的习惯打就好。可以适当利用右侧目录（手机看不到）按需查看。
 
         
           <p class="article-more-link">
@@ -852,9 +830,6 @@ v1.10更新
 
 
     <!-- headerblur min height -->
-    
-      var headerblur = document.getElementById("header-blur");
-      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>
