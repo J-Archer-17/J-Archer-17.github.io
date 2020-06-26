@@ -67,10 +67,32 @@
 
 
   
+  
+  <div class="site-header-image">
+    <img id="originBg" width="100%" alt="Hike News" src="">
+  </div>
+
+  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
+    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
+  </div>
+
+  <script>
+        var imgUrls = "https://wx1.sbimg.cn/2020/06/11/2020-26_11-00-009878.jpg".split(",");
+        var random = Math.floor((Math.random() * imgUrls.length ));
+        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+          document.getElementById("originBg").src=imgUrls[random];
+          document.getElementById("blurBg").src=imgUrls[random];
+        } else {
+          document.getElementById("originBg").src='/' + imgUrls[random];
+          document.getElementById("blurBg").src='/' + imgUrls[random];
+        }
+    </script>
+
+
 
 
 <header id="allheader" class="site-header" role="banner" 
-   >
+   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
   <div class="clearfix container">
       <div class="site-branding">
 
@@ -1636,13 +1658,15 @@ td
 <p>不建议洗打断除非没有奶毒。这个BOSS铁牢并不硬，尽量点撑血量的奇穴。流血5层没有扶摇的时候，突+御触发昂如岳和金甲，然后听天由命。<del>当然你也可以找一个糊春泥很6的奶花情缘，这样跳都不用跳了。</del>说句题外话，这个BOSS如果没有铁骨，那么十分推荐带一个盾歌。梅花盾对于穿透伤害来说太无敌了。</p>
 <p>星垂平野对穿；骤雨寒江不驱散你没办法，扣字喊奶妈。</p>
 <p>铁马血河debuff剩余1秒后跳，如果觉得自己不够帅，可以把<code>/cast [bufftime:铁马血河&lt;1] 后撤</code>加在你的宏里。单独设置一个键位也行，出这个技能就狂按。</p>
+<p>鑫鑫读条闻香识辣鸡的时候，BOSS的面向要背对鑫鑫，否则重来。</p>
 <h4 id="隐雷鞭厌夜"><a href="#隐雷鞭厌夜" class="headerlink" title="隐雷鞭厌夜"></a>隐雷鞭厌夜</h4><p><img src="https://wx2.sbimg.cn/2020/06/26/1b2e0b583c57e0c4e386b1772312b7cb.png" alt=""></p>
 <p>瞎打，常规奇穴即可。</p>
 <h3 id="老三-一个男人"><a href="#老三-一个男人" class="headerlink" title="老三 一个男人"></a>老三 一个男人</h3><p><img src="https://wx2.sbimg.cn/2020/06/26/1b2e0b583c57e0c4e386b1772312b7cb.png" alt=""></p>
 <p>闭上眼睛，按键开启。</p>
 <p>如果一觞点的瓜皮跑到二里地外，就需要你突过去马上让BOSS背对人群。</p>
 <h3 id="老四-一个女人"><a href="#老四-一个女人" class="headerlink" title="老四 一个女人"></a>老四 一个女人</h3><p><img src="https://s1.ax1x.com/2020/06/25/NBGrqK.png" alt=""></p>
-<p>T还是划水，灵灯点符出阴阳轮转的时候换个位。</p>
+<p>普通T划水。</p>
+<p>英雄T还是划水，灵灯点符出阴阳轮转的时候换个位。</p>
 <p>球怎么拉看插件就行。如果插件抽风了，看白某最近的两个卦象，出现太阴就把球拉在原地。</p>
 <h3 id="老五-安小逢和她的迷弟们"><a href="#老五-安小逢和她的迷弟们" class="headerlink" title="老五 安小逢和她的迷弟们"></a>老五 安小逢和她的迷弟们</h3><h4 id="T安小逢"><a href="#T安小逢" class="headerlink" title="T安小逢"></a>T安小逢</h4><p><img src="https://s1.ax1x.com/2020/06/26/ND55Ks.png" alt="①有奶花"></p>
 <p>这里T的压力主要来自BOSS砍你的伤害、减疗，而不是机制，所以洗出仗剑打灭回血。</p>
@@ -1831,6 +1855,9 @@ td
 
 
     <!-- headerblur min height -->
+    
+      var headerblur = document.getElementById("header-blur");
+      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>
