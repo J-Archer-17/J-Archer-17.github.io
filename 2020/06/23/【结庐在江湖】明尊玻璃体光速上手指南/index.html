@@ -67,32 +67,10 @@
 
 
   
-  
-  <div class="site-header-image">
-    <img id="originBg" width="100%" alt="Hike News" src="">
-  </div>
-
-  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
-    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
-  </div>
-
-  <script>
-        var imgUrls = "https://wx1.sbimg.cn/2020/06/11/2020-26_11-00-009878.jpg".split(",");
-        var random = Math.floor((Math.random() * imgUrls.length ));
-        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
-          document.getElementById("originBg").src=imgUrls[random];
-          document.getElementById("blurBg").src=imgUrls[random];
-        } else {
-          document.getElementById("originBg").src='/' + imgUrls[random];
-          document.getElementById("blurBg").src='/' + imgUrls[random];
-        }
-    </script>
-
-
 
 
 <header id="allheader" class="site-header" role="banner" 
-   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
+   >
   <div class="clearfix container">
       <div class="site-branding">
 
@@ -214,8 +192,7 @@
 <pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token operator">/</span>cast 净世破魔击
 <span class="token operator">/</span>cast 烈日斩
 <span class="token operator">/</span>cast 赤日轮<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<p>类似pt夜店老五这种可以把【流沙渡】洗出来。</p>
-<p>月斩的仇恨很高，群小怪的时候如果只按宏拉不住，就自己打打月斩。</p>
+<p>月斩的仇恨很高，群小怪的时候如果只按宏拉不住，就自己切目标打打月斩。</p>
 <p>我原本想洗【净身明礼】，后来发现群斩仇恨值令人迷惑，就放弃了。</p>
 <hr>
 <h2 id="打法"><a href="#打法" class="headerlink" title="打法"></a>打法</h2><p><strong>我习惯的起手是<code>戒火斩 - 慈悲愿 - 极乐引 - 朝圣言</code></strong>。</p>
@@ -369,9 +346,6 @@
 
 
     <!-- headerblur min height -->
-    
-      var headerblur = document.getElementById("header-blur");
-      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
     
     
 </script>
