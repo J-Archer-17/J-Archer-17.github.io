@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="j-archer-17.github.io/"/>
-  <updated>2020-06-28T13:21:13.000Z</updated>
+  <updated>2020-06-30T12:52:47.000Z</updated>
   <id>j-archer-17.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>冰心诀如何在夜店快速消耗纳元丹</title>
+    <link href="j-archer-17.github.io/2020/06/30/%E5%86%B0%E5%BF%83%E8%AF%80%E5%A6%82%E4%BD%95%E5%9C%A8%E5%A4%9C%E5%BA%97%E5%BF%AB%E9%80%9F%E6%B6%88%E8%80%97%E7%BA%B3%E5%85%83%E4%B8%B9/"/>
+    <id>j-archer-17.github.io/2020/06/30/%E5%86%B0%E5%BF%83%E8%AF%80%E5%A6%82%E4%BD%95%E5%9C%A8%E5%A4%9C%E5%BA%97%E5%BF%AB%E9%80%9F%E6%B6%88%E8%80%97%E7%BA%B3%E5%85%83%E4%B8%B9/</id>
+    <published>2020-06-30T12:52:47.000Z</published>
+    <updated>2020-06-30T12:52:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>我不会玩PVE冰心，或者说不知道怎样算会玩。一般看到别人DPS低觉得明明可以正常点的，才会写输出心法的东西。所以这篇还是写【我的打法和判断依据】，而不是【我认为正确的打法】。</p><a id="more"></a><h2 id="通用"><a href="#通用" class="headerlink" title="通用"></a>通用</h2><p>如果没修为了，或者全程懒得切奇穴，那么推荐这套不动：</p><p><img src="https://s1.ax1x.com/2020/06/28/N24oy8.png" alt=""></p><p>网上所有冰心宏都是一样的，只有开繁音的时机不一样。我选择目标2层急曲开繁音，如果朝圣言起得早就自己按，不习惯可以自行修改。</p><pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token comment" spellcheck="true">// 云端：当关关#冰心</span><span class="token operator">/</span>cast <span class="token punctuation">[</span>tbuff<span class="token operator">:</span>急曲<span class="token operator">></span><span class="token number">1</span><span class="token punctuation">]</span> 繁音急节<span class="token operator">/</span>fcast <span class="token punctuation">[</span>tnobuff<span class="token operator">:</span>急曲<span class="token operator">|</span>tbuff<span class="token operator">:</span>急曲<span class="token operator">&lt;</span><span class="token number">3</span><span class="token operator">|</span>tbufftime<span class="token operator">:</span>急曲<span class="token operator">&lt;</span><span class="token number">2</span><span class="token punctuation">]</span> 剑破虚空<span class="token operator">/</span>cast 玳弦急曲<span class="token operator">/</span>cast 剑气长江<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><p><strong>群攻自己按剑破</strong>，这是宏无法判定的：3个及以上目标才推荐用剑破群，2个就没必要了。如果非要按宏，那么可以群攻的时候按这个：</p><pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token operator">/</span>fcast 繁音急节<span class="token operator">/</span>fcast 剑破虚空<span class="token operator">/</span>cast 玳弦急曲<span class="token operator">/</span>cast 剑气长江<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><p>如果把琼霄/广陵月放在宏里，请做好刷新DPS下限的准备。尤其是琼霄，按宏的话一动就刷袖气，不肾亏才怪。</p><p>由于冰心是一个读条职业，有些技能需要人为判定，按宏的输出远低于手动。我自己除了吃薯片虾条鸭脖猪蹄浪味仙米花糖芝麻糕绿豆饼玉米棒香蕉苹果大鸭梨橙汁奶茶冰阔落的时候从不按宏。</p><hr><h2 id="几个关键奇穴的作用和取舍"><a href="#几个关键奇穴的作用和取舍" class="headerlink" title="几个关键奇穴的作用和取舍"></a>几个关键奇穴的作用和取舍</h2><h3 id="第六层"><a href="#第六层" class="headerlink" title="第六层"></a>第六层</h3><p><img src="https://s1.ax1x.com/2020/06/28/N2okxx.png" alt=""></p><p>这一层只考虑长依和广陵月。剑破伤害占比不高，生莲在单攻方面已经远不如广陵月了。</p><p><strong>广陵月最大的作用不会体现在技能本身的伤害上，而是对自身会效的加成</strong>。</p><p>长依不一定是群攻时才需要洗，像厌夜这种BOSS，经常转火也推荐洗长依，最大的作用就是快速叠急曲。</p><h3 id="第十一层"><a href="#第十一层" class="headerlink" title="第十一层"></a>第十一层</h3><p><img src="https://s1.ax1x.com/2020/06/28/N2oZqO.png" alt=""></p><p>只要有机会站桩都可以洗琼霄。这两个奇穴的选择，主要看的是需不需要频繁移动/转火，其次才是需不需要群攻。琼霄在站桩环境下，单体输出依然比夜天高一些。</p><hr><h2 id="夜店老一"><a href="#夜店老一" class="headerlink" title="夜店老一"></a>夜店老一</h2><p><img src="https://s1.ax1x.com/2020/06/28/N25gXT.png" alt=""></p><p>老一每波小怪打得都很快，所以繁音要早点开。</p><p><strong>先对着精锐开繁音刷个袖气</strong>，然后看精锐和盾兵的距离。如果精锐和盾兵拉得比较近，一直用剑破群就行了。如果分开拉的，那就当成单目标对着精锐打。</p><p>盾兵受到AOE伤害降低80%，所以盾兵还剩1个的时候就不要群了，对着精锐打正常循环。</p><p>繁音期间可以开两次琼霄，后面不再赘述。</p><p>老一最重要的其实是位置，不能太远，远了琼霄白点。近了，精锐冲锋时要让开。我习惯站<strong>人群侧面琼霄刚好覆盖到精锐和盾兵的位置</strong>，如果冲锋点别人可以不动，点自己人群也不用动。</p><p>BOSS突围时可以保他身上的急曲。<strong>最后一次突围时站在他目标的位置，他冲过来的时候开琼霄读玳弦</strong>，之后正常打。</p><h2 id="夜店老二"><a href="#夜店老二" class="headerlink" title="夜店老二"></a>夜店老二</h2><p><img src="https://s1.ax1x.com/2020/06/28/N24oy8.png" alt=""></p><p>长依用来应对转火，夜天用来在乱天狼的时候边走边打一个剑气长江。</p><h2 id="夜店老三"><a href="#夜店老三" class="headerlink" title="夜店老三"></a>夜店老三</h2><p><img src="https://s1.ax1x.com/2020/06/30/N43Vx0.png" alt=""></p><p>琼霄可根据个人习惯换夜天。</p><p>开广陵月的时机是<strong>剑破之后的GCD</strong>或<strong>下一次补剑破前6秒以上</strong>。我看了下技能比例，还是玳弦本身的伤害最重要，剑破、琼霄、急曲dot<del>都不配吃广陵月</del>只会让宝贵的广陵月开给空转的GCD。</p><p>因为有频繁走动的可能，我是月落前就算广陵月、琼霄CD好了也等几秒，如果BOSS没点自己再开。一觞之前稍稍往人群侧面走一点，如果被点名的人不背对，站侧面可以防止BOSS直接对穿你断技能（火大.jpg）。</p><p>当然这个BOSS鸡飞狗跳的，点夜天DPS不会掉太多。</p><h2 id="夜店老四"><a href="#夜店老四" class="headerlink" title="夜店老四"></a>夜店老四</h2><p><img src="https://s1.ax1x.com/2020/06/28/N25gXT.png" alt=""></p><p>最重要的是骂BOSS，让她上善不敢点你，就可以开琼霄长依疯狂群水牢。</p><p><del>推命阶段，普通打完球可以选中BOSS，站在中死符的人旁边开琼霄，锁链一出马上tab打锁链。</del></p><h2 id="夜店老五"><a href="#夜店老五" class="headerlink" title="夜店老五"></a>夜店老五</h2><p><img src="https://s1.ax1x.com/2020/06/28/N25gXT.png" alt=""></p><p>开场BOSS点名<strong>不要开繁音</strong>，只打剑破和玳弦。小怪来的路上站在T身边开繁音琼霄，直接剑破群。还是3个以上用剑破，只剩2个就多打玳弦。</p><p>这里的琼霄是给全程的小怪点的，打起来很舒服。打BOSS就不要太在意琼霄了，就当没有这个技能，躲来躲去还是剑气长江打的多一些。</p><p>老五的小怪，是一直出，但每次也不算很多。有人会想到用珑韵去群怪，但现在的珑韵和新妆玳弦伤害差距太大，打BOSS非常吃亏。而且洗珑韵就要跟着改好几个奇穴，有珑韵也没必要打剑破了。</p><p><img src="https://s1.ax1x.com/2020/06/30/N437Q0.png" alt=""></p><p>如果现在打珑韵的话，奇穴大概是这样点的。会肾亏，要么自己洗回蓝，要么组两个奶毒。宏也要换：</p><pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token operator">/</span>cast 繁音急节<span class="token operator">/</span>cast <span class="token punctuation">[</span>tbuff<span class="token operator">:</span>急曲<span class="token operator">=</span><span class="token number">2</span><span class="token punctuation">]</span> 江海凝光<span class="token operator">/</span>cast 玳弦急曲<span class="token operator">/</span>cast 剑气长江<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><p>这个宏100级之后我没测试过，如果急曲判定延迟修复了，就看着玩儿吧，反正也不推荐打珑韵。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我不会玩PVE冰心，或者说不知道怎样算会玩。一般看到别人DPS低觉得明明可以正常点的，才会写输出心法的东西。所以这篇还是写【我的打法和判断依据】，而不是【我认为正确的打法】。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="七秀" scheme="j-archer-17.github.io/categories/%E4%B8%83%E7%A7%80/"/>
+    
+    
+      <category term="PVE" scheme="j-archer-17.github.io/tags/PVE/"/>
+    
+      <category term="结庐在江湖" scheme="j-archer-17.github.io/tags/%E7%BB%93%E5%BA%90%E5%9C%A8%E6%B1%9F%E6%B9%96/"/>
+    
+      <category term="冰心" scheme="j-archer-17.github.io/tags/%E5%86%B0%E5%BF%83/"/>
+    
+  </entry>
   
   <entry>
     <title>夜店治疗职业奇穴打法参考</title>
