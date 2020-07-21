@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="j-archer-17.github.io/"/>
-  <updated>2020-07-21T13:09:17.000Z</updated>
+  <updated>2020-07-09T14:26:45.000Z</updated>
   <id>j-archer-17.github.io/</id>
   
   <author>
@@ -15,31 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>FF14常用宏·折叠菜单栏的制作流程</title>
-    <link href="j-archer-17.github.io/2020/07/21/FF14%E5%B8%B8%E7%94%A8%E5%AE%8F%C2%B7%E6%8A%98%E5%8F%A0%E8%8F%9C%E5%8D%95%E6%A0%8F%E7%9A%84%E5%88%B6%E4%BD%9C%E6%B5%81%E7%A8%8B/"/>
-    <id>j-archer-17.github.io/2020/07/21/FF14%E5%B8%B8%E7%94%A8%E5%AE%8F%C2%B7%E6%8A%98%E5%8F%A0%E8%8F%9C%E5%8D%95%E6%A0%8F%E7%9A%84%E5%88%B6%E4%BD%9C%E6%B5%81%E7%A8%8B/</id>
-    <published>2020-07-21T13:09:17.000Z</published>
-    <updated>2020-07-21T13:09:17.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>FF14的技能很多，功能也多，然而一些常用的功能偏偏被安排在二级三级菜单里。比如升级时会有任务要求对NPC做情感动作，那么先点【社交】，找到【情感动作】，在长长的列表里找到需要做的动作，或多或少会耗费一些不必要的时间和操作。同时FF14的宏指令也非常强大（战斗相关功能除外），这意味着适当使用宏可以大幅提升游戏体验。</p><a id="more"></a><h2 id="用户宏界面总览"><a href="#用户宏界面总览" class="headerlink" title="用户宏界面总览"></a>用户宏界面总览</h2><h2 id="常用宏举例"><a href="#常用宏举例" class="headerlink" title="常用宏举例"></a>常用宏举例</h2><h2 id="折叠菜单栏的制作流程"><a href="#折叠菜单栏的制作流程" class="headerlink" title="折叠菜单栏的制作流程"></a>折叠菜单栏的制作流程</h2>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;FF14的技能很多，功能也多，然而一些常用的功能偏偏被安排在二级三级菜单里。比如升级时会有任务要求对NPC做情感动作，那么先点【社交】，找到【情感动作】，在长长的列表里找到需要做的动作，或多或少会耗费一些不必要的时间和操作。同时FF14的宏指令也非常强大（战斗相关功能除外），这意味着适当使用宏可以大幅提升游戏体验。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="FF14" scheme="j-archer-17.github.io/categories/FF14/"/>
-    
-    
-      <category term="宏" scheme="j-archer-17.github.io/tags/%E5%AE%8F/"/>
-    
-      <category term="FF14" scheme="j-archer-17.github.io/tags/FF14/"/>
-    
-  </entry>
   
   <entry>
     <title>祖安奶歌的夜店甩锅指南</title>
@@ -97,9 +72,9 @@
     
       <category term="治疗" scheme="j-archer-17.github.io/tags/%E6%B2%BB%E7%96%97/"/>
     
-      <category term="结庐在江湖" scheme="j-archer-17.github.io/tags/%E7%BB%93%E5%BA%90%E5%9C%A8%E6%B1%9F%E6%B9%96/"/>
-    
       <category term="奶秀" scheme="j-archer-17.github.io/tags/%E5%A5%B6%E7%A7%80/"/>
+    
+      <category term="结庐在江湖" scheme="j-archer-17.github.io/tags/%E7%BB%93%E5%BA%90%E5%9C%A8%E6%B1%9F%E6%B9%96/"/>
     
   </entry>
   
@@ -151,6 +126,10 @@
     
       <category term="PVE" scheme="j-archer-17.github.io/tags/PVE/"/>
     
+      <category term="治疗" scheme="j-archer-17.github.io/tags/%E6%B2%BB%E7%96%97/"/>
+    
+      <category term="结庐在江湖" scheme="j-archer-17.github.io/tags/%E7%BB%93%E5%BA%90%E5%9C%A8%E6%B1%9F%E6%B9%96/"/>
+    
       <category term="范阳夜变" scheme="j-archer-17.github.io/tags/%E8%8C%83%E9%98%B3%E5%A4%9C%E5%8F%98/"/>
     
       <category term="万花" scheme="j-archer-17.github.io/tags/%E4%B8%87%E8%8A%B1/"/>
@@ -160,10 +139,6 @@
       <category term="五毒" scheme="j-archer-17.github.io/tags/%E4%BA%94%E6%AF%92/"/>
     
       <category term="长歌" scheme="j-archer-17.github.io/tags/%E9%95%BF%E6%AD%8C/"/>
-    
-      <category term="治疗" scheme="j-archer-17.github.io/tags/%E6%B2%BB%E7%96%97/"/>
-    
-      <category term="结庐在江湖" scheme="j-archer-17.github.io/tags/%E7%BB%93%E5%BA%90%E5%9C%A8%E6%B1%9F%E6%B9%96/"/>
     
   </entry>
   
@@ -230,9 +205,9 @@
     
       <category term="PVE" scheme="j-archer-17.github.io/tags/PVE/"/>
     
-      <category term="范阳夜变" scheme="j-archer-17.github.io/tags/%E8%8C%83%E9%98%B3%E5%A4%9C%E5%8F%98/"/>
-    
       <category term="结庐在江湖" scheme="j-archer-17.github.io/tags/%E7%BB%93%E5%BA%90%E5%9C%A8%E6%B1%9F%E6%B9%96/"/>
+    
+      <category term="范阳夜变" scheme="j-archer-17.github.io/tags/%E8%8C%83%E9%98%B3%E5%A4%9C%E5%8F%98/"/>
     
       <category term="莫问" scheme="j-archer-17.github.io/tags/%E8%8E%AB%E9%97%AE/"/>
     
@@ -344,9 +319,9 @@
     
       <category term="PVE" scheme="j-archer-17.github.io/tags/PVE/"/>
     
-      <category term="花间" scheme="j-archer-17.github.io/tags/%E8%8A%B1%E9%97%B4/"/>
-    
       <category term="结庐在江湖" scheme="j-archer-17.github.io/tags/%E7%BB%93%E5%BA%90%E5%9C%A8%E6%B1%9F%E6%B9%96/"/>
+    
+      <category term="花间" scheme="j-archer-17.github.io/tags/%E8%8A%B1%E9%97%B4/"/>
     
   </entry>
   
